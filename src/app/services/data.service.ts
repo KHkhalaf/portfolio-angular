@@ -12,8 +12,8 @@ export class DataService {
   education = [
     {
       university: 'Universität Damaskus',
-      degree: 'Informatik',
-      year: '2022-2021',
+      degree: 'Abschluss in Informatik',
+      year: '2022-2017',
     },
   ];
 
@@ -22,12 +22,20 @@ export class DataService {
       company: 'Maids.cc',
       role: 'Software entwikler',
       description:
-        'Entwicklung von ERP für die Verwaltung aller Unternehmensabläufe und Geschäfte',
+        'Entwicklung von ERP für die Verwaltung aller Unternehmensabläufe und Geschäfte,' +
+        ' Unterstützung bei der Entwicklung von Cloud-Anwendungen mit Angular und Java.' +
+        'Mitwirkung an Implementierung von Microservices.',
       year: 'Jun 2023 - Feb 2024',
     },
   ];
 
   projects = [
+    {
+      title: 'Portfolio Website',
+      description:
+        'Eine persönliche Portfolio-Website, die mit Angular und Bootstrap erstellt wurde.',
+      link: 'https://khkhalaf.github.io/portfolio-angular/',
+    },
     {
       title: 'maids.cc',
       description:

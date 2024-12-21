@@ -1,1 +1,10 @@
-<p>projects works!</p>
+<section>
+  @for(project of projects; track $index){
+  <div>
+    <h3>{{ project.title }}</h3>
+    <p>{{ project.description }}</p>
+    <a [href]="project.link" target="_blank">Project ansehen</a>
+  </div>
+  <br />
+  }
+</section>

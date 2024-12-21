@@ -1,1 +1,9 @@
-<p>education works!</p>
+<section>
+  <h2>Studuim</h2>
+  @for(edu of education; track $index){
+  <div>
+    <h3>{{ edu.degree }} - {{ edu.university }}</h3>
+    <p><strong>Jahre:</strong>{{ edu.year }}</p>
+  </div>
+  }
+</section>

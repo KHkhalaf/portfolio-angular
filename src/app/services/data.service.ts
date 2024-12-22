@@ -13,7 +13,7 @@ export class DataService {
     {
       university: 'Universität Damaskus',
       degree: 'Abschluss in Informatik',
-      year: '2022-2017',
+      year: '2017 - 2022',
     },
   ];
 

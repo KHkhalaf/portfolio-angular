@@ -1,4 +1,4 @@
-<div class="w3-padding-64 w3-content">
+<div class="w3-padding-64 w3-content" id="photos">
   <h2 class="w3-text-light-grey">Erkenntnisse</h2>
   <hr style="width: 200px" class="w3-opacity" />
 
@@ -19,16 +19,5 @@
     </div>
     <!-- End photo grid -->
   </div>
-  <br />
-  <section id="education">
-    <h2>Ausbildung</h2>
-    <hr style="width: 130px" class="w3-opacity" />
-    @for(edu of education; track $index){
-    <div>
-      <h3>{{ edu.degree }} - {{ edu.university }}</h3>
-      <p><strong>Jahre : </strong>{{ edu.year }}</p>
-    </div>
-    }
-  </section>
   <!-- End Portfolio Section -->
 </div>

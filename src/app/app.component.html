@@ -46,18 +46,25 @@
         <p>ABOUT</p>
       </a>
       <a
-        href="#photos"
+        href="#experience"
+        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+      >
+        <i class="fa fa-superpowers w3-xxlarge w3-padding-small"></i>
+        <p>Erfahrung</p>
+      </a>
+      <a
+        href="#education"
         class="w3-bar-item w3-button w3-padding-large w3-hover-black"
       >
         <i class="fa fa-eye w3-xxlarge"></i>
-        <p>PHOTOS</p>
+        <p>Ausbildung</p>
       </a>
       <a
         href="#contact"
         class="w3-bar-item w3-button w3-padding-large w3-hover-black"
       >
         <i class="fa fa-envelope w3-xxlarge"></i>
-        <p>CONTACT</p>
+        <p>KONTACT</p>
       </a>
     </nav>
 
@@ -79,7 +86,13 @@
           >ABOUT</a
         >
         <a
-          href="#photos"
+          href="#experience"
+          class="w3-bar-item w3-button"
+          style="width: 25% !important"
+          >Erfahrung</a
+        >
+        <a
+          href="#education"
           class="w3-bar-item w3-button"
           style="width: 25% !important"
           >Erkenntnisse</a
@@ -88,7 +101,7 @@
           href="#contact"
           class="w3-bar-item w3-button"
           style="width: 25% !important"
-          >CONTACT</a
+          >KONTACT</a
         >
       </div>
     </div>
@@ -96,272 +109,19 @@
     <!-- Page Content -->
     <div class="w3-padding-large w3-black" id="main">
       <!-- Header/Home -->
-      <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-        <h1 class="w3-jumbo">
-          <span class="w3-hide-small">I'm</span> Khalil Al khalaf
-        </h1>
-        <p>Software-Ingenieur und Entwickler</p>
-        <img
-          src="/assets/images/oprofileimage.jpg"
-          alt="face"
-          class="w3-image"
-          width="992"
-          height="1108"
-        />
-      </header>
+      <app-header></app-header>
 
       <!-- About Section -->
-      <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-        <h2 class="w3-text-light-grey">Khalil Al Khalaf</h2>
-        <hr style="width: 200px" class="w3-opacity" />
-        <p>
-          Full Stack Software Ingenieur (Java, Spring boot, Angular, Azure,
-          Microservices) mit Erfahrung in der Arbeit mit internationalen Teams
-          und Kunden, der eine neue Herausforderung sucht, um neuartige
-          B2C-Produkte zu entwickeln.
-        </p>
-        <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-        <p class="w3-wide">Java</p>
-        <div class="w3-dark-grey">
-          <div class="w3-white" style="height: 28px; width: 80%"></div>
-        </div>
-        <p class="w3-wide">Spring boot</p>
-        <div class="w3-dark-grey">
-          <div class="w3-white" style="height: 28px; width: 70%"></div>
-        </div>
-        <p class="w3-wide">AOP (Microservices)</p>
-        <div class="w3-dark-grey">
-          <div class="w3-white" style="height: 28px; width: 75%"></div>
-        </div>
-        <p class="w3-wide">Angular</p>
-        <div class="w3-dark-grey">
-          <div class="w3-white" style="height: 28px; width: 65%"></div>
-        </div>
-        <p class="w3-wide">Problemlösung und Datenstrukturen</p>
-        <div class="w3-dark-grey">
-          <div class="w3-white" style="height: 28px; width: 95%"></div>
-        </div>
-        <p class="w3-wide">Agile</p>
-        <div class="w3-dark-grey">
-          <div class="w3-white" style="height: 28px; width: 80%"></div>
-        </div>
-        <br />
-
-        <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-          <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">4+</span><br />
-            Partners
-          </div>
-          <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">17+</span><br />
-            Projects Done
-          </div>
-          <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">8+</span><br />
-            Happy Clients
-          </div>
-          <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">150+</span><br />
-            Meetings
-          </div>
-        </div>
-
-        <button class="w3-button w3-light-grey w3-padding-large w3-section">
-          <a
-            href="/assets/files/CV - khalil Al khalaf - DE.pdf"
-            download="Lebenslauf"
-            ><i class="fa fa-download"></i> Lebenslauf herunterladen
-          </a>
-        </button>
-
-        <!-- Grid for pricing tables -->
-        <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
-        <div class="w3-row-padding" style="margin: 0 -16px">
-          <div class="w3-half w3-margin-bottom">
-            <ul
-              class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off"
-            >
-              <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-              <li class="w3-padding-16">Web Design</li>
-              <li class="w3-padding-16">Service Integration</li>
-              <li class="w3-padding-16">Fehlerbehebung</li>
-              <li class="w3-padding-16">
-                <h2>$ 10</h2>
-                <span class="w3-opacity">Pro Aufgabe</span>
-              </li>
-              <li class="w3-light-grey w3-padding-24">
-                <button
-                  class="w3-button w3-white w3-padding-large w3-hover-black"
-                >
-                  Sign Up
-                </button>
-              </li>
-            </ul>
-          </div>
-
-          <div class="w3-half">
-            <ul
-              class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off"
-            >
-              <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-              <li class="w3-padding-16">Web Design</li>
-              <li class="w3-padding-16">Service Integration</li>
-              <li class="w3-padding-16">Fehlerbehebung</li>
-              <li class="w3-padding-16">
-                <h2>$ 25</h2>
-                <span class="w3-opacity">Pro Aufgabe</span>
-              </li>
-              <li class="w3-light-grey w3-padding-24">
-                <button
-                  class="w3-button w3-white w3-padding-large w3-hover-black"
-                >
-                  Sign Up
-                </button>
-              </li>
-            </ul>
-          </div>
-          <!-- End Grid/Pricing tables -->
-        </div>
-
-        <!-- Testimonials -->
-        <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>
-        <img
-          src="/assets/images/faisal.jpeg"
-          alt="Avatar"
-          class="w3-left w3-circle w3-margin-right"
-          style="width: 80px"
-        />
-        <p>
-          <span class="w3-large w3-margin-right">Faisal Alaya.</span> CEO at
-          Flexis
-        </p>
-        <p>Khalil was committed, hard-working and self-learner</p>
-        <br />
-
-        <img
-          src="/assets/images/oussama.png"
-          alt="Avatar"
-          class="w3-left w3-circle w3-margin-right"
-          style="width: 80px"
-        />
-        <p>
-          <span class="w3-large w3-margin-right">Oussama Akir</span> Tribe
-          Director at Ecomundo.
-        </p>
-        <p>No one is better than Khalil.</p>
-        <!-- End About Section -->
-      </div>
+      <app-about></app-about>
 
       <!-- Portfolio Section -->
-      <div class="w3-padding-64 w3-content" id="photos">
-        <h2 class="w3-text-light-grey">Erkenntnisse</h2>
-        <hr style="width: 200px" class="w3-opacity" />
-
-        <!-- Grid for photos -->
-        <div class="w3-row-padding" style="margin: 0 -16px">
-          <div class="w3-half">
-            <img src="/assets/images/agile_manifesto.png" style="width: 100%" />
-            <img src="/assets/images/slcm.png" style="width: 100%" />
-          </div>
-
-          <div class="w3-half">
-            <img src="/assets/images/Problemloesungs.jpg" style="width: 100%" />
-            <img
-              src="/assets/images/usser insight.jpg"
-              style="width: 100%"
-              height="218px"
-            />
-          </div>
-          <!-- End photo grid -->
-        </div>
-        <!-- End Portfolio Section -->
-      </div>
-
+      <app-experience></app-experience>
+      <app-education></app-education>
       <!-- Contact Section -->
-      <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-        <h2 class="w3-text-light-grey">Kontaktiere mich</h2>
-        <hr style="width: 200px" class="w3-opacity" />
-
-        <div class="w3-section">
-          <p>
-            <i
-              class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"
-            ></i>
-            Köln, DE
-          </p>
-          <p>
-            <i
-              class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"
-            ></i>
-            Phone: 015214335563
-          </p>
-          <p>
-            <i
-              class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"
-            >
-            </i>
-            <a href="mailto:khalil.aboud.khalaf@outlook.com">
-              Email: khalil.aboud.khalaf&#64;outlook.com</a
-            >
-          </p>
-        </div>
-        <br />
-        <p>Lassen Sie uns in Kontakt treten. Senden Sie mir eine Nachricht:</p>
-
-        <form (submit)="sendMessage($event)">
-          <p>
-            <input
-              class="w3-input w3-padding-16"
-              type="text"
-              placeholder="Name"
-              required
-              name="Name"
-              [(ngModel)]="formData.name"
-            />
-          </p>
-          <p>
-            <input
-              class="w3-input w3-padding-16"
-              type="text"
-              placeholder="Email"
-              required
-              name="Email"
-              [(ngModel)]="formData.email"
-            />
-          </p>
-          <p>
-            <input
-              class="w3-input w3-padding-16"
-              type="text"
-              placeholder="Subject"
-              required
-              name="Subject"
-              [(ngModel)]="formData.subject"
-            />
-          </p>
-          <p>
-            <input
-              class="w3-input w3-padding-16"
-              type="text"
-              placeholder="Message"
-              required
-              name="Message"
-              [(ngModel)]="formData.message"
-            />
-          </p>
-          <p>
-            <button
-              class="w3-button w3-light-grey w3-padding-large"
-              type="submit"
-            >
-              <i class="fa fa-paper-plane"></i> NACHRICHT SENDEN
-            </button>
-          </p>
-        </form>
-        <!-- End Contact Section -->
-      </div>
+      <app-contact></app-contact>
 
       <!-- Footer -->
+      <!-- END PAGE CONTENT -->
       <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
         <i
           class="fa fa-facebook-official w3-hover-opacity"
@@ -383,8 +143,6 @@
         </p>
         <!-- End footer -->
       </footer>
-
-      <!-- END PAGE CONTENT -->
     </div>
   </body>
 </html>

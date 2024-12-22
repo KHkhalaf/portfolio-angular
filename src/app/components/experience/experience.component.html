@@ -1,10 +1,13 @@
-<section>
-  <h2>Berufserfahrung</h2>
-  @for(exp of experience;track $index){
-  <div>
-    <h3>{{ exp.role }} bei {{ exp.company }}</h3>
-    <p><strong>Jahr:</strong> {{ exp.year }}</p>
-    <p>{{ exp.description }}</p>
-  </div>
-  }
-</section>
+<div class="w3-padding-64 w3-content" id="experience">
+  <section>
+    <h2>Berufserfahrung</h2>
+    <hr style="width: 230px" class="w3-opacity" />
+    @for(exp of experience;track $index){
+    <div>
+      <h3>{{ exp.role }} bei {{ exp.company }}</h3>
+      <p><strong>Jahr:</strong> {{ exp.year }}</p>
+      <p>{{ exp.description }}</p>
+    </div>
+    }
+  </section>
+</div>

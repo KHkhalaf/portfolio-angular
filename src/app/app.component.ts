@@ -8,6 +8,7 @@ import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { EducationComponent } from './components/education/education.component';
+import { PricesComponent } from './prices/prices.component';
 
 @Component({
   selector: 'app-root',
@@ -21,6 +22,7 @@ import { EducationComponent } from './components/education/education.component';
     ContactComponent,
     ExperienceComponent,
     EducationComponent,
+    PricesComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
